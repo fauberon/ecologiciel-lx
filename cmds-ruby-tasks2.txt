@@ -1,0 +1,138 @@
+    1  sudo apt-get update
+    2  sudo DEBIAN_FRONTEND=noninteractive apt-get -y install xfce4
+    3  sudo apt install xfce4-session
+    4  sudo apt-get -y install xrdp
+    5  echo xfce4-session >~/.xsession
+    6  sudo service xrdp restart
+    7  sudo passwd azureuser
+    8  sudo passwd smacadmin
+    9  top
+   10  xterm
+   11  echo $term
+   12  echo $TERM
+   13  xterm
+   14  sterm &
+   15  xterm &
+   16  konsole
+   17  echo $SHELL
+   18  apt-get update
+   19  sudo apt-get update
+   20  apt-get install git
+   21  sudo apt-get install git
+   22  ruby -v
+   23  sudo apt-get install ruby27
+   24  sudo apt-get install ruby-full
+   25  sudo apt-get install ruby-2.7.3
+   26  sudo apt-get install ruby-2.7
+   27  sudo apt-get install ruby2.7
+   28  gpg2 --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+   29  sudo apt isntall gnupg2
+   30  sudo apt install gnupg2
+   31  gpg2 --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+   32  sudo gpg2 --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+   33  \curl -sSL https://get.rvm.io | bash -s stable
+   34  command curl -sSL https://rvm.io/mpapis.asc | gpg2 --import -
+   35  command curl -sSL https://rvm.io/pkuczynski.asc | gpg2 --import -
+   36  \curl -sSL https://get.rvm.io | bash -s stable
+   37  rvm install ruby-2.7.3
+   38  source /home/smacadmin/.rvm/scripts/rvm
+   39  rvm install ruby-2.7.3
+   40  ruby -v
+   41  gem -v
+   42  gem install rails -v 6.4.4
+   43  gem install rails -v 6
+   44  sudo -u postgres psql
+   45  sudo apt-get install postgresql
+   46  /usr/lib/postgresql/10/bin/pg_ctl -D /var/lib/postgresql/10/main -l logfile start
+   47  sudo /usr/lib/postgresql/10/bin/pg_ctl -D /var/lib/postgresql/10/main -l logfile start
+   48  su /usr/lib/postgresql/10/bin/pg_ctl -D /var/lib/postgresql/10/main -l logfile start
+   49  sudo -u postgres psql
+   50  sudo -u postgres createuser -d <signed-in-user>
+   51  sudo -u postgres createuser -d smacadmin
+   52  pwd
+   53  ls /
+   54  df
+   55  cd /
+   56  mkdir projects
+   57  sudo mkdir projects
+   58  ls -l projects
+   59  ls -l /
+   60  sudo chmod 744 projects
+   61  ls -l projects/
+   62  ls -al projects/
+   63  sudo chmod 777 projects
+   64  ls -al projects/
+   65  cd projects/
+   66  git clone https://github.com/Azure-Samples/rubyrails-tasks.git
+   67  cd rubyrails-tasks
+   68  git branch -m main
+   69  bundle install --path vendor/bundle
+   70  gem install bundler:1.16.2
+   71  bundle install --path vendor/bundle
+   72  gem install pg -v '1.0.0' --source 'https://rubygems.org/'
+   73  cat /home/smacadmin/.rvm/gems/ruby-2.7.3/extensions/x86_64-linux/2.7.0/pg-1.0.0/mkmf.log
+   74  ls
+   75  cat Gemfile
+   76  rvm install ruby-full
+   77  ruby -v
+   78  rvm install ruby-2.5
+   79  ruby -v
+   80  bundle install --path vendor/bundle
+   81  gem install pg -v '1.0.0' --source 'https://rubygems.org/'
+   82  cat Gemfile
+   83  gem install rails -v 5.0
+   84  rvm install ruby-2.6
+   85  gem install rails -v 5.0
+   86  bundle install --path vendor/bundle
+   87  gem install pg -v '1.0.0' --source 'https://rubygems.org/'
+   88  bundle update
+   89  gem install pg -v '1.3.5' --source 'https://rubygems.org/'
+   90  vi Gemfile
+   91  ls /usr/con
+   92  ls /usr/
+   93  pg_config
+   94  ls
+   95  ls config/
+   96  cat config/database.yml 
+   97  ls /var/lib
+   98  ls /var/lib/postgresql/
+   99  ls /var/lib/postgresql/10/
+  100  ls /var/lib/postgresql/10/main
+  101  sudo ls /var/lib/postgresql/10/main
+  102  pg_config
+  103  gem install pg
+  104  pg_config
+  105  sudo apt-get install libpq-dev
+  106  pg_config
+  107  gem install pg
+  108  bundle install --path vendor/bundle
+  109  rake db:create
+  110  bundle exec db:create
+  111  bundle exec rake db:create
+  112  bundle exec rake db:migrate
+  113  rails server
+  114  sudo apt-get install firefox
+  115  firefox
+  116  rails server
+  117  history > /projects/cmds-ruby-tasks.txt
+  118  vi /projects/cmds-ruby-tasks.txt 
+  119  rails server
+  120  cd config/
+  121  vi database.yml 
+  122  export DB_HOST=pgsql-rub1-dev.postgres.database.azure.com
+  123  export DB_DATABASE=sampledb 
+  124  export DB_USERNAME=smacpostgres@pgsql-rub1-dev
+  125  export DB_PASSWORD=postgresSmac01
+  126  echo $DB_PASSWORD
+  127  bundle exec db:migrate RAILS_ENV=production
+  128  bundle exec rake db:migrate RAILS_ENV=production
+  129  bundle exec rake assets:compile
+  130  bundle exec rake assets:precompile
+  131  rails server
+  132  rails secret
+  133  export RAILS_MASTER_KEY=706f612092a8ff141af9230c2c72318ce90fa682e32f43aef9dd5817bd7a7670762862c92cf308a81a6dc699b0ad9e87e154dc498c56b32b363f475275431c68
+  134  export SECRET_KEY_BASE=706f612092a8ff141af9230c2c72318ce90fa682e32f43aef9dd5817bd7a7670762862c92cf308a81a6dc699b0ad9e87e154dc498c56b32b363f475275431c68
+  135  export RAILS_SERVE_STATIC_FILES=true
+  136  rails server -e production
+  137  history > /projects/cmds-ruby-tasks.txt 
+  138  history > /projects/cmds-ruby-tasks2.txt 
